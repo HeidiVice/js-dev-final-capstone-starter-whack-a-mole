@@ -94,13 +94,12 @@ function chooseHole(holes) {
 *
 */
 function gameOver() {
-  if (time > 0) {
-    let timeoutId = showUp();
-    return timeoutId;
-  } else {
-    let gameStopped = stopGame();
-    return gameStopped;
-  }
+  if time > 0:
+  timeoutId = showUp()
+  return timeoutId
+  else
+  gameStopped = stopGame()
+  eturn gameStopped
 }
 
 /**
@@ -248,22 +247,6 @@ function stopGame(){
   return "game stopped";
 }
 
-const audioHit = new Audio("assets/molesong.mp3");
-const song = new Audio("assets/molesong.mp3");
-
-function playAudio(audioObject) {
-  audioObject.play();
-}
-function loopAudio(audioObject) {
-  audioObject.loop = true;
-  playAudio(audioObject);
-}
-function stopAudio(audioObject) {
-  audioObject.pause();
-}
-function play(){
-  playAudio(song);
-}
 /**
 * This function starts the game when the `startButton` is clicked and initializes the game by performing the following steps: 
 
