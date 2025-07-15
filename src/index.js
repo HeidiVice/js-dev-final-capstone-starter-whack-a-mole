@@ -127,10 +127,10 @@ function showUp() {
 */
 function showAndHide(hole, delay){
 toggleVisibility(hole)  
-  const timeoutID = setTimeout(() => {
-toggleVisibility(hole)    
-    gameOver();
-  }, 1000); // TODO: change the setTimeout delay to the one provided as a parameter
+  const setTimeout(() => {
+  toggleVisibility(hole);
+  gameOver();
+}, delay); // TODO: change the setTimeout delay to the one provided as a parameter
   return timeoutID;
 }
 
@@ -141,7 +141,8 @@ toggleVisibility(hole)
 *
 */
 function toggleVisibility(hole) {
-  hole.classList.toggle('show');
+  const mole = hole.querySelector('.mole');
+  mole.classList.toggle('show');
   return hole;
 }
 
