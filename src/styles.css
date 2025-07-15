@@ -25,6 +25,13 @@ h2 {
   -webkit-text-stroke: 1px black;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 #start {
     text-align: center;
     font-size: 30px;
