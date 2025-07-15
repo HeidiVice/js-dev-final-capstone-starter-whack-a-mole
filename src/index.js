@@ -95,11 +95,12 @@ function chooseHole(holes) {
 */
 function gameOver() {
   if (time > 0) {
-  let timeoutId = showUp();
-  return timeoutId;
+    let timeoutId = showUp();
+    return timeoutId;
   } else {
-  let gameStopped = stopGame();
-  return gameStopped; 
+    let gameStopped = stopGame();
+    return gameStopped;
+  }
 }
 
 /**
