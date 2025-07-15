@@ -126,7 +126,7 @@ toggleVisibility(hole)
   const timeoutID = setTimeout(() => {
 toggleVisibility(hole)    
     gameOver();
-  }, 0); // TODO: change the setTimeout delay to the one provided as a parameter
+  }, 1000); // TODO: change the setTimeout delay to the one provided as a parameter
   return timeoutID;
 }
 
