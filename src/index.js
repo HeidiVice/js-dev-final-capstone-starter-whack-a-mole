@@ -281,11 +281,7 @@ function play(){
  * Note: Simply uncommenting `setDuration(10);` and `showUp();` is not enough. To make the game work, ensure all necessary functions listed above are called to initialize the score, timer, event listeners, and mole appearances. 
 */
 function startGame(){
-  clearScore();
-  stopGame();   //optional
   setDuration(10);
-  setEventListeners();
-  startTimer();
   showUp();
   return "game started";
 }
