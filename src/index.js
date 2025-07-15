@@ -127,11 +127,11 @@ function showUp() {
 *
 */
 function showAndHide(hole, delay){
-toggleVisibility(hole)  
-  const setTimeout(() => {
   toggleVisibility(hole);
-  gameOver();
-}, delay); // TODO: change the setTimeout delay to the one provided as a parameter
+  const timeoutID = setTimeout(() => {
+    toggleVisibility(hole);
+    gameOver();
+  }, delay);
   return timeoutID;
 }
 
