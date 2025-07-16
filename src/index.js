@@ -101,7 +101,7 @@ function gameOver() {
   return timeoutId
   else
   gameStopped = stopGame()
-  eturn gameStopped
+  return gameStopped
 }
 
 /**
