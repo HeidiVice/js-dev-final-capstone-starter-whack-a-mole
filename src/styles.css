@@ -1,5 +1,5 @@
 html {
-  /*background: url('./assets/background.png') no-repeat center center fixed;*/
+  background: url('./assets/background.png') no-repeat center center fixed;
   background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/background.png?raw=true') no-repeat center center fixed;
   box-sizing: border-box;
   -webkit-background-size: cover;
@@ -44,7 +44,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  /*cursor: url('./assets/mallet.png'), pointer;*/
+  cursor: url('./assets/mallet.png'), pointer;
 }
 
 .hole {
@@ -55,7 +55,7 @@ h2 {
 
 .hole:after {
   display: block;
-  /*background: url("./assets/hole.png") bottom center no-repeat;*/
+  background: url("./assets/hole.png") bottom center no-repeat;
   background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat;
   background-size:contain;
   content:'';
