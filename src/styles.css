@@ -25,6 +25,9 @@ h2 {
   -webkit-text-stroke: 1px black;
 }
 
+#title {
+  font-family: "Rock Salt", "Lucida Handwriting", "Brush Script MT", cursive;
+}
 
 #start {
     text-align: center;
