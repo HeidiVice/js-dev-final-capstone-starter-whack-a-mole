@@ -144,7 +144,6 @@ function showAndHide(hole, delay){
 *
 */
 function toggleVisibility(hole) {
-  const mole = hole.querySelector('.mole');
   mole.classList.toggle('show');
   return hole;
 }
