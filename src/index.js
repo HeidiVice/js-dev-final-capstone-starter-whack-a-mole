@@ -144,7 +144,7 @@ function showAndHide(hole, delay){
 *
 */
 function toggleVisibility(hole) {
-  mole.classList.toggle('show');
+  hole.classList.toggle('show');
   return hole;
 }
 
