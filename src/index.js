@@ -33,30 +33,6 @@ function chooseHole(holes) {
   return hole;
 }
 
-//AUDIO PORTION START
-
-const audioHit = new Audio('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/spooky_song.mp3'));
-const song = new Audio('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/spooky_song.mp3');
-
-function playAudio(audioObject) {
-  audioObject.play();
-}
-
-function loopAudio(audioObject) {
-  audioObject.loop = true;
-  playAudio(audioObject);
-}
-
-function stopAudio(audioObject) {
-  audioObject.pause();
-}
-
-function play(){
-  playAudio(song);
-}
-
-//AUDIO PORTION END
-
 function toggleVisibility(hole) {
   hole.classList.toggle('show');
   return hole;
