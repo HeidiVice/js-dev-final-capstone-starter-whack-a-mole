@@ -35,8 +35,8 @@ function chooseHole(holes) {
 
 //AUDIO PORTION START
 
-const audioHit = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/hit.mp3?raw=true");
-const song = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/molesong.mp3?raw=true");
+const audioHit = new Audio('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/spooky_song.mp3'));
+const song = new Audio('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/spooky_song.mp3');
 
 function playAudio(audioObject) {
   audioObject.play();
