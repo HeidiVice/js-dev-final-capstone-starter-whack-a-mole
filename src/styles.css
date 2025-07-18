@@ -12,9 +12,8 @@ html {
 h1 {
   text-align: center;
   font-size: 90px;
-  font-family: "Rock Salt", "Lucida Handwriting", "Brush Script MT";
-  color: white;
-  -webkit-text-stroke: 2px black;
+  font-family: 'Creepster', 'UnifrakturCook', 'Old Standard TT', 'IM Fell DW Pica', Georgia, serif;
+  color: #130c05;
 }
 
 h2 {
@@ -25,7 +24,7 @@ h2 {
 }
 
 #title {
-  font-family: "Rock Salt", "Lucida Handwriting", "Brush Script MT", cursive;
+  font-family: 'Creepster', 'UnifrakturCook', 'Old Standard TT', 'IM Fell DW Pica', Georgia, serif;
 }
 
 #start {
