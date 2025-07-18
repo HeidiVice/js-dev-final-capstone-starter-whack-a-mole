@@ -1,11 +1,11 @@
 html {
-  background: url('https://github.com/HeidiVice/js-dev-final-capstone-starter-whack-a-mole/blob/e4b919a61040965cc0711d0aaa34c7efc29b3791/src/background.png') no-repeat center center fixed;
+  background: url('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/background.png') no-repeat center center fixed;
   box-sizing: border-box;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  z-index:0;
+  z-index: 0;
   overflow: hidden;
 }
 
@@ -29,12 +29,12 @@ h2 {
 }
 
 #start {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
-#timer{
-    color: white;
+#timer {
+  color: white;
 }
 
 .grid {
@@ -43,7 +43,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url(''https://github.com/HeidiVice/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/mallet.png?raw=true'), pointer;
+  cursor: url('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/mallet.png'), pointer;
 }
 
 .hole {
@@ -54,19 +54,19 @@ h2 {
 
 .hole:after {
   display: block;
-  background: url("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hole.png?raw=true") bottom center no-repeat;
-  background-size:contain;
-  content:'';
+  background: url('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/hole.png') bottom center no-repeat;
+  background-size: contain;
+  content: '';
   width: 100%;
   height: 100%;
   position: absolute;
   bottom: -40%;
   z-index: 2;
-  pointer-events:none;
+  pointer-events: none;
 }
 
 .mole {
-  background: url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat;
+  background: url('https://heidivice.github.io/js-dev-final-capstone-starter-whack-a-mole/assets/mole.png') bottom center no-repeat;
   background-size: 40%;
   position: absolute;
   top: 100%; /* hidden below the hole */
@@ -78,7 +78,5 @@ h2 {
 }
 
 .hole.show .mole {
-  top: 0; 
+  top: 0;
 }
-
-
